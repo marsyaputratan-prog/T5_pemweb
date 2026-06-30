@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tugas5.css">
+</head>
+<body>
+ 
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="logo">putra<span>.</span></a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary">Hire me</a>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+ 
+<main>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-text" data-reveal>
+        <p class="eyebrow">Frontend Developer</p>
+        <h1>I'm <span class="highlight">Marsya Putra</span></h1>
+        <p class="hero-desc">I build clean, fast, and good-looking websites. Currently studying Design &amp; Analysis of Algorithms — by night I turn code into things people actually enjoy using.</p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">See my work</a>
+          <a href="#contact" class="btn btn-ghost">Let's talk</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>3+</strong><span>Projects shipped</span></div>
+          <div><strong>100%</strong><span>HTML/CSS/JS</span></div>
+          <div><strong>24/7</strong><span>Curiosity mode</span></div>
+        </div>
+      </div>
+      <div class="hero-photo" data-reveal>
+        <div class="photo-frame">
+          <img src="img/SAYA.jpg" alt="Foto Profil Saya" width="200" />
+        </div>
+        <div class="blob"></div>
+      </div>
+    </div>
+    <div class="scroll-hint"><span></span>Scroll</div>
+  </section>
+ 
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-inner">
+      <p class="eyebrow" data-reveal>About</p>
+      <h2 data-reveal>Tired of cookie-cutter websites? So am I.</h2>
+      <p class="about-text" data-reveal>I forget the templates and build something that actually reflects who I am — clean layouts, subtle motion, and details that reward people who stick around. This is my space to show what I've built and what I'm capable of.</p>
+    </div>
+  </section>
+ 
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="section-inner">
+      <p class="eyebrow" data-reveal>How it works</p>
+      <h2 data-reveal>What I bring to the table</h2>
+      <div class="cards">
+        <div class="card" data-reveal>
+          <div class="card-num">01</div>
+          <h3>Scroll smoothly</h3>
+          <p>Seamless transitions that guide visitors through the journey without losing them.</p>
+        </div>
+        <div class="card" data-reveal>
+          <div class="card-num">02</div>
+          <h3>Microinteractions</h3>
+          <p>Small, deliberate details — hovers, reveals, easing — that make a page feel alive.</p>
+        </div>
+        <div class="card" data-reveal>
+          <div class="card-num">03</div>
+          <h3>Show accomplishments</h3>
+          <p>A dedicated space for the work I'm proudest of, presented clearly.</p>
+        </div>
+        <div class="card" data-reveal>
+          <div class="card-num">04</div>
+          <h3>Clarity</h3>
+          <p>Straightforward, no-fluff explanations of what I do and why it's useful to you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- WORK -->
+  <section class="work" id="work">
+    <div class="section-inner">
+      <p class="eyebrow" data-reveal>Latest portfolio</p>
+      <h2 data-reveal>Things I've built</h2>
+      <div class="work-grid">
+        <div class="work-item" data-reveal>
+          <div class="work-thumb thumb-1"></div>
+          <h3>Knapsack Visualizer</h3>
+          <p>Comparing Exhaustive Search, Backtracking &amp; Branch and Bound.</p>
+        </div>
+        <div class="work-item" data-reveal>
+          <div class="work-thumb thumb-2"></div>
+          <h3>Complaint System DFD</h3>
+          <p>Context Diagram &amp; data flow mapping for a complaint management system.</p>
+        </div>
+        <div class="work-item" data-reveal>
+          <div class="work-thumb thumb-3"></div>
+          <h3>This Portfolio</h3>
+          <p>Hand-built with HTML, CSS &amp; JS — no frameworks, no templates.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-inner">
+      <p class="eyebrow" data-reveal>Testimonials</p>
+      <h2 data-reveal>What people say</h2>
+      <div class="quote-grid">
+        <div class="quote-card" data-reveal>
+          <p>"Detail-oriented and fast — handed in work that looked far more polished than expected."</p>
+          <span>— Group project teammate</span>
+        </div>
+        <div class="quote-card" data-reveal>
+          <p>"Genuinely easy to collaborate with and always brings a clear plan to the table."</p>
+          <span>— Course classmate</span>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-inner contact-inner">
+      <p class="eyebrow" data-reveal>Contact</p>
+      <h2 data-reveal>Let's build something together</h2>
+      <p data-reveal>Open to collabs, internships, and interesting problems.</p>
+      <a href="mailto:hello@example.com" class="btn btn-primary big" data-reveal>Say hello</a>
+    </div>
+  </section>
+</main>
+ 
+<footer class="footer">
+  <p>© 2026 Putra. Built with HTML, CSS &amp; JS.</p>
+</footer>
+ 
+<script src="tugas5.js"></script>
+</body>
+</html>
+ 
